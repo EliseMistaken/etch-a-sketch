@@ -1,0 +1,27 @@
+body {
+    display: flex;
+}
+.container {
+    height:1000px;
+    width: 1000px;
+    margin: 30px;
+}
+
+.sidebar {
+    flex: 0 1 auto;
+}
+
+.row {
+    display: flex;
+    flex: 2 0 auto;
+}
+
+.square {
+    flex: 1 0 auto;
+
+
+}
+
+.fill {
+    background-color: black;
+}
