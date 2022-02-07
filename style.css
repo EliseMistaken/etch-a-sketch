@@ -1,14 +1,16 @@
 body {
     display: flex;
+    background-color: #a474fc;
 }
 .container {
     height:1000px;
     width: 1000px;
-    margin: 30px;
 }
 
 .sidebar {
     flex: 0 1 auto;
+    padding: 20px;
+
 }
 
 .row {
@@ -18,7 +20,7 @@ body {
 
 .square {
     flex: 1 0 auto;
-
+    
 
 }
 
